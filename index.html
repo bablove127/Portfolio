@@ -22,6 +22,7 @@
 <body>
     <!--Header-->
     <header class="header">
+
     <!--BEM-->
     <div class="header__logo">
         <img class="header__logo__img" src="images/me.ico" alt="logo">
@@ -38,15 +39,17 @@
     </ul>
     </nav>
 </header>
+
 <!--main-->
     <main>
         <!--home-->
         <section id="home">
-        <img src="./images/me.ico" alt="Chaeyeon's Profile">
-        <h2>안녕하세요 김채연입니다.</h2>
-        <p>세상에서 가장 사랑스러운 대하민국 AI 개발자입니다.</p>
-        <a href="#contact">연락처</a>
+        <img class="home__avatar" src="./images/me.ico" alt="Chaeyeon's Profile">
+        <h2 class="home__title">안녕하세요! <br><strong class="home__title--strong">김채연</strong>입니다.</h2>
+        <p class="home__description">세상에서 가장 사랑스러운 대한민국 AI 개발자입니다.</p>
+        <a class="home__contact" href="#contact">연락처</a>
         </section>
+
         <!--about-->
         <section id="about" class="section max-container">
             <h2 class="title">김채연</h2>
@@ -70,7 +73,7 @@
             </ul>
             <ul>
                 <li>
-                    <img src="./images/logo.jpg" alt="LG logo">
+                    <img src="./images/logo.jpg" alt="LG logo" width="200" height="200">
                     <div>
                         <p>LG 시스템 엔지니어</p>
                         <p>2018~2023</p>
@@ -114,6 +117,7 @@
             </div>
         </section>
         <section>
+            <div class="section max-container">
             <h3>도구</h3>
             <ul>
                 <li>Visual Studio Code</li>
@@ -123,14 +127,20 @@
                 <li>Xcode</li>
             </ul>
         </section>
+
+        <!--and so on-->
         <section>
+            <div class="section max-container">
             <h3>기타</h3>
             <ul>
                 <li>Git</li>
                 <li>SVN</li>
             </ul>
         </section>
+    </div>
         </section>
+    </div>
+
         <!--work-->
         <section id="work" class="section">
             <div class="section max-container">
@@ -205,15 +215,15 @@
             <div class="max-container">
             <h2 class="title">자격증</h2>
             <p class="description">국가 기술 자격증</p>
-            <img src="./images/licence.jpg" alt="정보처리기사">
+            <img src="./images/licence.jpg" alt="정보처리기사" width="200" height="200">
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laudantium accusantium. Eligendi ducimus porro beatae hic sint quia nihil. Doloremque eaque recusandae dignissimos ipsa iste unde corrupti laborum reiciendis nesciunt?</p>
             </div>
-            <img src="./images/licence.jpg" alt="정보처리기사">
+            <img src="./images/licence.jpg" alt="정보처리기사" width="200" height="200">
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laudantium accusantium. Eligendi ducimus porro beatae hic sint quia nihil. Doloremque eaque recusandae dignissimos ipsa iste unde corrupti laborum reiciendis nesciunt?</p>
             </div>
-            <img src="./images/licence.jpg" alt="정보처리기사">
+            <img src="./images/licence.jpg" alt="정보처리기사" width="200" height="200">
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laudantium accusantium. Eligendi ducimus porro beatae hic sint quia nihil. Doloremque eaque recusandae dignissimos ipsa iste unde corrupti laborum reiciendis nesciunt?</p>
             </div>
@@ -230,6 +240,7 @@
             </a>
         </aside>
     </main>
+
     <!--footer-->
     <footer id="contact" class="section">
         <div class="max-container">
@@ -242,5 +253,6 @@
         <p>ⓒChaeyeon - All right reserved</p>
     </div>
     </footer>
+    
 </body>
 </html>
