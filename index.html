@@ -54,29 +54,30 @@
         <section id="about" class="section max-container">
             <h2 class="title">김채연</h2>
             <p class="description">자기소개 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, placeat corporis alias est ullam esse explicabo temporibus quos libero itaque nulla cumque qui, debitis ducimus nemo nam distinctio consequatur eligendi?</p>
-            <ul>
-                <li>
-                    <i class="fa-brands fahtml5"></i>
-                    <p>front-end</p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">front-end</p>
                     <p>HTML, CSS, Javascript, Node.js, React</p>
                 </li>
-                <li>
-                    <i class="fa-solid faa-mobile"></i>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
                     <p>React-Native, Andriod, iOS, Kotlin</p>
                     <p></p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-server"></i>
-                    <p>Back-end</p>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Back-end</p>
                     <p>Node.js, fastAPI, Java, GraphQL</p>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="jobs">
+                <li class="job">
                     <img src="./images/logo.jpg" alt="LG logo" width="200" height="200">
                     <div>
-                        <p>LG 시스템 엔지니어</p>
-                        <p>2018~2023</p>
+                        <p class="job__name">LG 시스템 엔지니어</p>
+                        <p class="job__period">2018~2023</p>
                     </div>
                 </li>
             </ul>
@@ -85,40 +86,55 @@
         <!--skills-->
         <section id="skills" class="section">
             <div class="max-container">
-            <h2 class="title">skills</h2>
-            <p class="description">언어 및 도구</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis reprehenderit quae saepe aperiam cupiditate architecto! Numquam corrupti asperiores adipisci tempora explicabo eum laudantium sapiente quam consequatur vitae, hic reiciendis.</p>
-            <div>
-                <section>
-                    <h3>언어</h3>
+                <h2 class="title">skills</h2>
+                <p class="description">언어 및 도구</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis reprehenderit quae saepe aperiam cupiditate architecto! Numquam corrupti asperiores adipisci tempora explicabo eum laudantium sapiente quam consequatur vitae, hic reiciendis.</p>
+                <div class="skills">
+                <section class="skills__coding">
+                    <h3 class="skills__title">언어</h3>
                         <ul>
-                            <li>
-                                <div><span>HTML</span><span>98%</span></div>
-                                <div><div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                <span>HTML</span><span>98%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style='width: 98%;'></div>
                             </li>
-                            <li>
-                                <div><span>CSS </span><span>90%</span></div>
-                                <div><div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                <span>CSS</span><span>97%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style='width: 98%;'></div>
                             </li>
-                            <li>
-                                <div><span>Javascript </span><span>89%</span></div>
-                                <div><div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                <span>Javascript</span><span>97%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style='width: 98%;'></div>
                             </li>
-                            <li>
-                                <div><span>React </span><span>88%</span></div>
-                                <div><div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                <span>React</span><span>97%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style='width: 98%;'></div>
                             </li>
-                            <li>
-                                <div><span>Node.js </span><span>80%</span></div>
-                                <div><div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                <span>Node.js</span><span>97%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style='width: 98%;'></div>
                             </li>
                         </ul>
                 </section>
             </div>
         </section>
-        <section>
-            <div class="section max-container">
-            <h3>도구</h3>
+        <section class="skills">
+            <!-- <div class="section max-container"> -->
+            <h3 class="skills__title">도구</h3>
             <ul>
                 <li>Visual Studio Code</li>
                 <li>Pycharm</li>
@@ -131,7 +147,7 @@
         <!--and so on-->
         <section>
             <div class="section max-container">
-            <h3>기타</h3>
+            <h3 class="skills__etc">기타</h3>
             <ul>
                 <li>Git</li>
                 <li>SVN</li>
@@ -139,7 +155,7 @@
         </section>
     </div>
         </section>
-    </div>
+</div>
 
         <!--work-->
         <section id="work" class="section">
